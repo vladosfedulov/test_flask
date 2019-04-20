@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my friends</title>
+</head>
+<body>
+ <h2>{{login_user.first_name}} {{login_user.last_name}}</h2>
+ <h2>Список дррузей:</h2>
+ <h3>- {{ user[0].first_name }} {{ user[0].last_name }}, id = {{ user[0].id }}</h3>
+ <h3>- {{ user[1].first_name }} {{ user[1].last_name }}, id = {{ user[1].id }}</h3>
+ <h3>- {{ user[2].first_name }} {{ user[2].last_name }}, id = {{ user[2].id }}</h3>
+ <h3>- {{ user[3].first_name }} {{ user[3].last_name }}, id = {{ user[3].id }}</h3>
+ <h3>- {{ user[4].first_name }} {{ user[4].last_name }}, id = {{ user[4].id }}</h3>
+<p onclick="window.location='/';" style="text-align: center"><button>На главную</button>
+</body>
+</html>
